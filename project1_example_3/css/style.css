@@ -1,0 +1,9 @@
+.title {
+  font-size: 45px;
+  text-align: center;
+  color: darkblue;
+}
+
+.card-body {
+  background-color: gainsboro;
+}
