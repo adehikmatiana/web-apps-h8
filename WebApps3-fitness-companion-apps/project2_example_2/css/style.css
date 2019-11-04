@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+}
+
+.card-image {
+    height: 400px;
+    width: 538px;
+}
+
+.title {
+    color: hotpink;
+    text-align: center;
+    size: 45px;
+}
+
+a {
+    color: deeppink;
+    font-size: 20px;
+}
+
+a:hover {
+    color: pink;
+}

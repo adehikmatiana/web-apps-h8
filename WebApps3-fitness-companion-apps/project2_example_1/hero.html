@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>My Fitness Companion</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark mb-3">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-4">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
+
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-4 rounded-pill" type="search" placeholder="Search Workout"
+                    aria-label="Search">
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1>My Fitness Companion</h1> <br />
+
+        <div class="bd-example mb-3">
+            <div class="d-flex justify-content-between">
+                <p class="text-muted">All Workouts</p>
+
+            </div>
+
+            <div class="card-deck mb-3">
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=705&q=80"
+                        class="card-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Smash</h5>
+                        <p class="card-text">Dedicated to strength and discipline building. Perform the workouts over a
+                            four day period per week. Take a day off after two days of training.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-dark" data-toggle="modal"
+                            data-target="#exampleModal">Details</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=705&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Stripped Captain</h5>
+                        <p class="card-text">Build a pretty sturdy foundation of strength with a little muscle to boot.
+                            Perform the workouts over a four day period per week.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-dark">Details</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=705&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Steel Muscle</h5>
+                        <p class="card-text">Get ready to ramp up the intensity and really blow out the muscle. Perform
+                            the workouts over a four day period per week.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-dark">Details</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="card-body">
+                            <h5 class="card-title">Green Smash</h5>
+                            <h6 class="card-title">Dedicated to strength and discipline building.</h6>
+                            <p class="card-text">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Exercise</th>
+                                            <th scope="col">Warm Up</th>
+                                            <th scope="col">Working Sets</th>
+                                            <th scope="col">Rest Period</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Incline Barbell Bench Press</th>
+                                            <td>2 x 10-15</td>
+                                            <td>3 x 4-8</td>
+                                            <td>2 min</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Barbell Bench Press</th>
+                                            <td></td>
+                                            <td>3 x 4-8</td>
+                                            <td>2 min</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Bent Over Barbell Row</th>
+                                            <td>2 x 10-15</td>
+                                            <td>3 x 4-8</td>
+                                            <td>2 min</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-dark" data-dismiss="modal">Got It</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

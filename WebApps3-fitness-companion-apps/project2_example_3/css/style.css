@@ -1,0 +1,23 @@
+body {
+    background-color: yellowgreen;
+}
+
+.card-image {
+    height: 400px;
+    width: 538px;
+}
+
+.title {
+    color: green;
+    text-align: center;
+    size: 45px;
+}
+
+a {
+    color: green;
+    font-size: 20px;
+}
+
+a:hover {
+    color: greenyellow;
+}
